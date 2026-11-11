@@ -5,14 +5,15 @@ Laravel 10.x と Laravel Sail (Docker) を使用した開発環境が構築さ�
 
 ## ✅ 前提条件
 
-* **Docker Desktop** がインストールされ、起動していること。
-* **Git** がインストールされていること。
+- **Docker Desktop** がインストールされ、起動していること。
+- **Git** がインストールされていること。
 
 ## 🚀 環境構築手順
 
 ターミナル（Windowsの場合はWSL2またはGit Bash推奨）を開き、以下の手順で環境を構築してください。
 
 ### 1. リポジトリのクローン
+
 まずはプロジェクトをローカルにダウンロードします。
 
 ```bash
@@ -81,7 +82,7 @@ Laravelの暗号化キーを生成します。
 
 ブラウザで以下のURLにアクセスしてください。LaravelのWelcomeページが表示されれば構築完了です。
 
-* URL: http://localhost
+- URL: http://localhost
 
 ---
 
@@ -91,9 +92,9 @@ Laravelの暗号化キーを生成します。
 
 シーダー (`UserSeeder`) により、以下のテストユーザーが自動的に作成されています。認証機能は実装されていませんが、タスクの所有者 (`user_id`) としてこのIDを使用します。
 
-* **User ID**: `1`
-* **Name**: `Test User`
-* **Email**: `test@example.com`
+- **User ID**: `1`
+- **Name**: `Test User`
+- **Email**: `test@example.com`
 
 ### サンプルタスクについて
 
@@ -109,10 +110,10 @@ Tutorial 13のハンズオンでは、主に以下のファイルを編集・作
 
 ### よく使うコマンド
 
-* **コンテナの起動**: `./vendor/bin/sail up -d`
-* **コンテナの停止**: `./vendor/bin/sail down`
-* **Artisanコマンド**: `./vendor/bin/sail artisan ...`
-* **ログの確認**: `./vendor/bin/sail logs -f`
+- **コンテナの起動**: `./vendor/bin/sail up -d`
+- **コンテナの停止**: `./vendor/bin/sail down`
+- **Artisanコマンド**: `./vendor/bin/sail artisan ...`
+- **ログの確認**: `./vendor/bin/sail logs -f`
 
 ### APIテストツール
 
